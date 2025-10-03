@@ -1,0 +1,7 @@
+ktor:
+  application:
+    modules:
+      - com.memoraq.backend.ApplicationKt.module
+      - com.memoraq.backend.ApplicationKt.customRoutes
+  deployment:
+    port: 8080
